@@ -1,47 +1,58 @@
-# Exam RESULTS Portal
- Exam Results
+# Student Management Sytem
+ Note:- This is my ongoing project, so it's not complete yet.
 
-Exam results portal for both students and professors .
+A Full Stack Web Application built with Node.js, Express.js, MongoDB and Bootstrap for managing all the tasks and activities of a student within an Institution.
+
+# Modules
+
+  - A powerful Login and Authentication System - Role based authentication and authorization.
+  - Student Details – Displays the details of all the students, and provides following services:
+        a. Adding a new student.
+        b. Editing / Modifying the data of an existing student.
+        c. Deleting / Removing the data of an existing student.
+
+  - Course Details – Lis the details of all the courses available in the institution, and provides following services:
+        a. Adding a new course.
+        b. Editing an existing course.
+        c. Deleting a course.
+  - Fee Details.
+  - Marks and Grades.
+  - Attendance.
+
+### Technology Stack Used
+
+This project uses a number of open source tools, technologies and frameworks to work properly:
+
+* [Visual Studio Code](https://code.visualstudio.com) - A code editor redefined and optimized for building and debugging modern web and cloud applications. 
+* [Twitter Bootstrap](https://www.getbootstrap.com) - Great UI boilerplate for modern web apps.
+* [node.js](https://www.nodejs.org) - Evented I/O for the backend. Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+* [Express](https://www.expressjs.com) - Express is a minimal and flexible Node.js web application framework.
+* [Html, CSS, JavaScript](#)
+* [MongoDB](https://www.mongodb.com)
+
+### Installation
+
+This project requires [Node.js](https://nodejs.org/) v10+ to run.
+
+Install the dependencies and devDependencies and start the server.
+
+```sh
+$ cd student-management-system
+$ npm install -d
+$ nodemon
+```
 
 
-## Demo content
 
-Website is under construction. <br/>
-- Admin Login: admin | Password: 123 <br/>
-- For Students: First Year | Roll No: 1011<br/>
-- For Students: Second Year | Roll No: 2021<br/>
+### Todos
 
+ - Import the users.json file to the local MongoDB server.
+ ```sh
+$ mongoimport --db student-mgmt-sys --collection users --file users.json
+```
+ - And run the application in the development mode.
 
-## Technology Used
+License
+----
 
-- Front end: HTML, CSS, JavaScript <br/>
-- Back end: PHP, MySQL  <br/>
-- Server: XAMPP Server
-
-## Admin Features
-
-- Admin Dashboard <br/>
-- Admin can add/update/ Class <br/>
-- Admin can add/update/ Subjects  <br/>
-- Admin can add/update/ Active/Inactive Subject combination with class  <br/>
-- Admin can register new student and also edit info of the student  <br/>
-- Aadmin can declare/ edit  result of a student  <br/>
-- Admin can change own password.
-
-## Student Features
-
-- Student can search their result using valid rollid <br/>
-- Student can download the result in the PDF format.
-
-
- 
-
- 
-
- 
-
- 
-
-
- 
-
+MIT
