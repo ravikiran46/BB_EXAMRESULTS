@@ -1,7 +1,3 @@
-# Student Management Sytem
- Note:- This is my ongoing project, so it's not complete yet.
-
-A Full Stack Web Application built with Node.js, Express.js, MongoDB and Bootstrap for managing all the tasks and activities of a student within an Institution.
 
 # Modules
 
@@ -52,7 +48,3 @@ $ mongoimport --db student-mgmt-sys --collection users --file users.json
 ```
  - And run the application in the development mode.
 
-License
-----
-
-MIT
